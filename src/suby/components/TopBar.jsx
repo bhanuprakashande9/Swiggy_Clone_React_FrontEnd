@@ -13,7 +13,7 @@ const TopBar = () => {
             <input type="text" placeholder='Search...' />
         </div>
         <div className="userAuth">
-            Login / SignUp
+            HI USER
         </div>
    </section>
   )
