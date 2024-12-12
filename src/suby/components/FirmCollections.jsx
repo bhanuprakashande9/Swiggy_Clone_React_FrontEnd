@@ -48,7 +48,8 @@ const FirmCollections = () => {
    <div className="zoomEffect">
    <div className="firmGroupBox">
                       <div className="firmGroup">
-                        <img src={`${API_URL}/uploads/${item.image}`} alt={item.firmName} />
+                      <img src={`${API_URL}/uploads/${item.image}?t=${new Date().getTime()}`} alt={item.firmName} />
+
                         <div className="firmOffer">{item.offer}</div>
                       </div>
                       <div className="firmDetails">
